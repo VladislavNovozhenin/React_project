@@ -12,7 +12,7 @@ app.use("/static", express.static("./public/client"));
 app.get("/auth", (req, res) => {
   axios.post(
     'https://www.reddit.com/api/v1/access_token',
-    `grant_type=authorization_code&code=${req.query.code}&redirect_uri=http://react-project-sedk-git-test-vlads-projects-cde9d0a5.vercel.app/auth`,
+    `grant_type=authorization_code&code=${req.query.code}&redirect_uri=https://react-project-vlads-projects-cde9d0a5.vercel.app/auth`,
     {
       auth: { username: process.env.CLIENT_ID, password: process.env.SECRET},
       headers: { 'Content-type': 'application/x-www-form-urlencoded' }

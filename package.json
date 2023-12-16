@@ -28,7 +28,7 @@
     "build": "cross-env NODE_ENV=production webpack --config webpack.config.js",
     "dev": "cross-env NODE_ENV=development CLIENT_ID=nlayCzCHWqlnYP_-0IBMJQ SECRET=oYznIURYQdAVXFahysOgnUlKVRP8Jg node ./bin/dev.js",
     "test": "jest",
-    "start": " node ./public/server/server.js"
+    "start": "cross-env CLIENT_ID=YAABv9cZr02grvuNW3fkkA SECRET=jZJHslrxd6CADeAqyNwZ_8niyd_c8A node ./public/server/server.js"
   },
   "author": "",
   
