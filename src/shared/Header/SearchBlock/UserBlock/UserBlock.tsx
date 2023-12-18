@@ -14,7 +14,7 @@ interface IUserBlockProps {
 export function UserBlock({avatarSrc, username}: IUserBlockProps) {
   const loading = useSelector<RootState, boolean>(state => state.me.loading)
   return (
-    <a href={`https://www.reddit.com/api/v1/authorize?client_id=YAABv9cZr02grvuNW3fkkA&response_type=code&state=RANDOM_STRING&redirect_uri=http://react-project-git-main-vlads-projects-cde9d0a5.vercel.app/auth&duration=permanent&scope=read submit identity`}
+    <a href={`https://www.reddit.com/api/v1/authorize?client_id=YAABv9cZr02grvuNW3fkkA&response_type=code&state=RANDOM_STRING&redirect_uri=https://react-project-dw2iq5csi-vlads-projects-cde9d0a5.vercel.app/auth&duration=permanent&scope=read submit identity`}
     className={styles.userBox}>
       <div className={styles.avatarBox}>
     {avatarSrc
