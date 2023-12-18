@@ -549,7 +549,7 @@ var app = (0, express_1.default)();
 app.use("/static", express_1.default.static("./public/client"));
 app.get("/auth", function (req, res) {
     axios_1.default.post('https://www.reddit.com/api/v1/access_token', "grant_type=authorization_code&code=".concat(req.query.code, "&redirect_uri=http://react-project-git-main-vlads-projects-cde9d0a5.vercel.app/auth"), {
-        auth: { username: 'YAABv9cZr02grvuNW3fkkA', password: process.env.SECRET },
+        auth: { username: 'YAABv9cZr02grvuNW3fkkA', password: 'jZJHslrxd6CADeAqyNwZ_8niyd_c8A' },
         headers: { 'Content-type': 'application/x-www-form-urlencoded' }
     })
         .then(function (_a) {
