@@ -14,7 +14,7 @@ app.get("/auth", (req, res) => {
     'https://www.reddit.com/api/v1/access_token',
     `grant_type=authorization_code&code=${req.query.code}&redirect_uri=https://react-project-vlads-projects-cde9d0a5.vercel.app/auth`,
     {
-      auth: { username: 'YAABv9cZr02grvuNW3fkkA', password: 'jZJHslrxd6CADeAqyNwZ_8niyd_c8A'},
+      auth: { username: 'YAABv9cZr02grvuNW3fkkA', password: 'jZJHslrxd6CADeAqyNwZ_8niyd_c8Agit'},
       headers: { 'Content-type': 'application/x-www-form-urlencoded' }
     }
   )
