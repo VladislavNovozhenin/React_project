@@ -27,8 +27,8 @@ function App() {
     <BrowserRouter>
       <Layout>
         <Routes>
-          <Route path='/stat' element={<Statistic />} />
-          <Route path='/' element={<Content />} />
+          <Route path='React_project/stat' element={<Statistic />} />
+          <Route path='React_project/' element={<Content />} />
         </Routes>
       </Layout>
     </BrowserRouter>
