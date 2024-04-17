@@ -1,0 +1,53 @@
+.modal {
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    /* overflow-x: hidden;
+  overflow-y: auto; */
+ 
+}
+
+.modalContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    padding: 25px 0;
+    position: absolute;
+    background-color: var(--white);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modalCancelTop {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+
+.modalTitle {
+    margin: 0;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+.modalDelete {
+    padding: 15px 50px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: var(--redD);
+    color: var(--white);
+}
+
+.modalCancelBottom {
+    font-size: 16px;
+    border-bottom: 1px solid var(--black);
+}

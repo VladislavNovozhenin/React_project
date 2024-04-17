@@ -1,0 +1,32 @@
+.statisticTop {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    margin: 0;
+    font-size: 18px;
+    width: 100%;
+}
+
+.statisticBottom {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 16px;
+}
+
+
+@media all and (min-width: 768px) {
+    
+.title {
+    font-size: 24px;
+}
+
+.statisticBottom {
+    gap: 32px;
+}
+  }
+  
+

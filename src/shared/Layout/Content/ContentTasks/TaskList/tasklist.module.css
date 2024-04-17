@@ -1,0 +1,25 @@
+.contentTaskList {
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.taskEnter {
+    opacity: 0;
+  }
+  .taskEnterActive {
+    opacity: 1;
+    transition: opacity 700ms ease-in;
+  }
+  .taskExit {
+    opacity: 1;
+  }
+  .taskExitActive {
+    opacity: 0;
+    transition: opacity 700ms ease-out;
+  }
+
+@media all and (min-width: 576px) {
+    .contentTaskList {
+        width: 65%;
+    }
+}

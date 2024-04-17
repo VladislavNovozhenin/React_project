@@ -1,0 +1,11 @@
+.timer {
+    position: relative;
+}
+
+@media all and (min-width: 1024px) {
+    .timer {
+        width: 53%;
+    }
+    
+}
+

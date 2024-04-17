@@ -1,0 +1,113 @@
+.statisticStop,
+.statisticStopBlue {
+    grid-column: 9/13;
+    grid-row: 3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    align-items: center;
+    background-color: var(--greyF4);
+}
+
+.statisticStopBlue {
+    background-color: var(--blueC);
+}
+
+.statisticStop svg,
+.statisticStopBlue svg {
+    width: 70px;
+    height: 70px;
+    margin-top: auto;
+
+}
+
+.statisticStop svg {
+    stroke: var(--greyC4);
+}
+
+.statisticStopBlue svg {
+    stroke: var(--blue7);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.value {
+    font-size: 20px;
+    line-height: normal;
+}
+
+@media all and (min-width: 768px) {
+
+    .statisticStop svg,
+    .statisticStopBlue svg {
+        width: 80px;
+        height: 80px;
+    }
+
+    .name {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .value {
+        font-size: 40px;
+    }
+}
+
+@media all and (min-width: 1200px) {
+
+    .statisticStop,
+    .statisticStopBlue {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 25px;
+    }
+
+    .statisticStop svg,
+    .statisticStopBlue svg {
+        width: 115px;
+        height: 115px;
+        margin-top: 0;
+    }
+
+    .name {
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+    .value {
+        font-size: 50px;
+    }
+
+    .content {
+        margin-bottom: 0;
+        height: 100%;
+        align-items: start;
+    }
+
+}
+
+@media all and (min-width: 1440px) {
+    .value {
+        font-size: 64px;
+    }
+
+    .statisticStop svg,
+    .statisticStopBlue svg {
+        width: 129px;
+        height: 129px;
+    }
+}

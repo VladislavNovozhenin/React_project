@@ -1,0 +1,12 @@
+.timerTask {
+    margin-bottom: 30px;
+    
+}
+
+.timerTaskTask {
+    color: var(--grey9);
+}
+
+.timerPurpose {
+    margin-left: 5px;
+}

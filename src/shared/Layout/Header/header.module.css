@@ -1,0 +1,26 @@
+.header {
+    box-shadow: var(--boxShadow);
+}
+
+.headerContainer {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px;
+}
+
+@media all and (min-width: 768px) {
+    .headerContainer {
+        padding: 15px 40px;
+    }
+  }
+  
+  
+  @media all and (min-width: 1440px) {
+    .headerContainer {
+        padding: 15px 80px;
+    }
+    
+  }

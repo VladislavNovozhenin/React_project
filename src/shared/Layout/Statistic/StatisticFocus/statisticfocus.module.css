@@ -1,0 +1,112 @@
+.statisticFocus,
+.statisticFocusOrange {
+    grid-column: 1/5;
+    grid-row: 3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    align-items: center;
+    background-color: var(--greyF4);
+}
+
+.statisticFocus svg,
+.statisticFocusOrange svg {
+    width: 70px;
+    height: 70px;
+    margin-top: auto;
+}
+
+.statisticFocusOrange {
+    background-color: var(--orangeFfd);
+}
+
+.statisticFocus svg {
+    stroke: var(--greyC4);
+}
+
+.statisticFocusOrange svg {
+    stroke: var(--orangeFfa);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.value {
+    font-size: 20px;
+    line-height: normal;
+}
+
+@media all and (min-width: 768px) {
+
+    .statisticFocus svg,
+    .statisticFocusOrange svg {
+        width: 80px;
+        height: 80px;
+    }
+
+    .name {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .value {
+        font-size: 40px;
+    }
+}
+
+@media all and (min-width: 1200px) {
+
+    .statisticFocus,
+    .statisticFocusOrange {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 25px;
+    }
+
+    .statisticFocus svg,
+    .statisticFocusOrange svg {
+        width: 115px;
+        height: 115px;
+        margin-top: 0;
+    }
+
+    .name {
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+    .value {
+        font-size: 50px;
+    }
+
+    .content {
+        margin-bottom: 0;
+        height: 100%;
+        align-items: start;
+    }
+
+}
+
+@media all and (min-width: 1440px) {
+    .value {
+        font-size: 64px;
+    }
+    
+    .statisticFocus svg,
+    .statisticFocusOrange svg {
+        width: 129px;
+        height: 129px;
+    }
+}

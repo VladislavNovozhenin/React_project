@@ -1,0 +1,81 @@
+.timerBottom {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 80px 45px;
+    background-color: var(--greyF4);
+}
+
+.btnAdd {
+    position: absolute;
+    left: 90%;
+    top: 80px;
+}
+
+.btnAdd svg {
+    width: 30px;
+    height: 30px;
+}
+
+.btnAdd path {
+    fill: var(--white);
+}
+
+.btnAdd circle {
+    fill: var(--greyC4);
+    transition: fill .2s ease-in-out;
+}
+
+.btnAdd:hover circle {
+    fill: var(--green8);
+}
+
+@media all and (min-width: 576px) {
+    .btnAdd {
+        left: 82%;
+        top: 85px;
+    }
+
+    .btnAdd svg {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .timerBottom {
+        padding: 50px 125px 85px;
+    }
+
+    .btnAdd {
+        left: 75%;
+        top: 105px;
+    }
+}
+
+
+@media all and (min-width: 1024px) {
+    .btnAdd {
+        left: 86%;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .btnAdd {
+        left: 80%;
+    }
+}
+
+
+@media all and (min-width: 1440px) {
+    .timerBottom {
+        padding: 70px 175px 105px;
+    }
+
+    .btnAdd {
+        top: 125px;
+        left: 77%;
+    }
+
+}

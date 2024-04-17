@@ -1,0 +1,58 @@
+.statisticWeek {
+    grid-column: 1/7;
+    grid-row: 1;
+    padding: 20px;
+    background-color: var(--greyF4);
+}
+
+.title {
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.descr {
+    margin: 0;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.descr span {
+    margin-left: 5px;
+    color: var(--redD);
+    font-weight: 700;
+}
+
+@media all and (min-width: 768px) {
+    .statisticWeek {
+        grid-column: 1/4;
+        padding: 15px;
+        height: 260px;
+    }
+}
+
+
+@media all and (min-width: 1024px) {
+    .statisticWeek {
+        padding: 20px;
+        
+    }
+
+    .title {
+        font-size: 24px;
+        line-height: 33px;
+    }
+    
+    .descr {
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .statisticWeek {
+        padding: 25px;
+        
+    }
+}

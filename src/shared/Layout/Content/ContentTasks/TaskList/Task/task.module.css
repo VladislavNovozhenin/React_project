@@ -1,0 +1,54 @@
+.task {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    border-top: 1px solid var(--greyC4);
+}
+
+.task:last-child {
+    border-bottom: 1px solid var(--greyC4);
+}
+
+
+
+.taskNumber {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border: 1px solid var(--greyC4);
+    border-radius: 50%;
+    font-size: 14px;
+}
+
+.taskInput,
+.taskDescr {
+    border: none;
+    font-size: 14px;
+    margin-right: 5px;
+    color: var(--black);
+}
+
+.taskInput {
+    background-color: var(--white);
+    outline: 1px solid var(--orangeFfa);
+}
+
+@media all and (min-width: 768px) {
+    .task {
+        padding: 19px 0;
+    }
+
+    .taskNumber {
+        width: 25px;
+        height: 25px;
+        font-size: 16px;
+    }
+
+    .taskInput,
+    .taskDescr {
+        font-size: 16px;
+    }
+}

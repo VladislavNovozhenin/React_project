@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'SfUiDisplay';
+  src: local('sf-ui-display-r'),
+    url('./shared/fonts/sf-ui-display-r.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SfUiDisplay';
+  src: local('sf-ui-display-m'),
+    url('./shared/fonts/sf-ui-display-m.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SfUiDisplay';
+  src: url('./shared/fonts/b/sf-ui-display-b.eot');
+  src: local('sf-ui-display-b'),
+    url('./shared/fonts/b/sf-ui-display-b.woff') format('woff'),
+    url('./shared/fonts/b/sf-ui-display-b.eot') format('embedded-opentype'),
+    url('./shared/fonts/b/sf-ui-display-b.ttf') format('truetype'),
+    url('./shared/fonts/b/sf-ui-display-b.svg#fonts/b/sf-ui-display-b') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SfUiDisplay';
+  src: local('sf-ui-display-t'),
+    url('./shared/fonts/sf-ui-display-t.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+
+:root {
+  --black: #333333;
+  --black2: #333333;
+  --redD: #DC3E22;
+  --greenA8: #A8B64F;
+  --greyF4: #F4F4F4;
+  --grey9: #999;
+  --green8: #899441;
+  --greyC4: #c4c4c4;
+  --greyEc: #ececec;
+  --white: #fff;
+  --whiteFa: #faf4f4;
+  --redE: #EA8A79;
+  --orangeFfa: #FFAE35;
+  --orangeFfd: #FFDDA9;
+  --purpleD: #DFDCFE;
+  --purple9: #9C97D7;
+  --blueC: #C5F1FF;
+  --blue7: #7FC2D7;
+  --boxShadow: 0px 10px 63px 0px rgba(0, 0, 0, 0.07);
+}
+
+html[data-theme='dark'] {
+  --black: #fff;
+  --greyC4: rgb(52, 52, 103);
+  --greyF4: rgb(31, 31, 66);
+  --greyEc: #3b2672;
+  --white: rgb(17, 26, 79);
+  --boxShadow: 0px 2px 40px 50px rgb(2, 16, 63);
+  --whiteFa: #4a36d1;
+  --redD: #bb6556;
+  --greenA8: #b6c26b;
+  --orangeFfd: #745220;
+  --purpleD: #625e97;
+  --blueC: #387182;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: 'SfUiDisplay', serif;
+  color: var(--black);
+  background-color: var(--white);
+}
+
+* {
+  color: var(--black);
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}

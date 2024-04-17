@@ -1,0 +1,12 @@
+.contentTask {
+    margin-bottom: 35px;
+}
+
+@media all and (min-width: 1024px) {
+    .contentTask {
+        width: 43%;
+        margin-bottom: 0;
+    }
+}
+
+

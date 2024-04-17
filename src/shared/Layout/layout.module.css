@@ -1,0 +1,17 @@
+.main {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 30px 15px 40px;
+}
+
+@media all and (min-width: 768px) {
+    .main {
+        padding: 60px 40px 80px;
+    }
+  }
+  
+  @media all and (min-width: 1024px) {
+    .main {
+        padding: 100px 80px 150px;
+    }
+  }

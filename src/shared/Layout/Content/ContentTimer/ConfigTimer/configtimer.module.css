@@ -1,0 +1,147 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.modalContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+    padding: 18px 0;
+    position: absolute;
+    background-color: var(--greyF4);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modalCancelTop {
+    position: absolute;
+    top: 15px;
+    right: 12px;
+}
+
+.modalCancelTop path {
+    fill: var(--greyC4);
+    transition:  fill .2s ease-in-out;
+}
+
+.modalCancelTop:hover path {
+    fill: var(--redE);
+}
+
+.modalTitle {
+    margin: 0;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.modalForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.modalLabel {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.modalInput {
+    max-width: 35px;
+    margin-right: 10px;
+    border: none;
+    text-align: center;
+    color: var(--greyC4);
+    font-size: 12px;
+}
+
+.modalInputCheckbox {
+    width: 14px;
+    height: 14px;
+}
+
+.modalBtnGroup {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modalBtn {
+    padding: 8px 18px;
+    font-size: 12px;
+    color: var(--white);
+    transition: border-color .2s ease-in-out, background-color .2s ease-in-out;
+}
+
+.modalBtn:first-child {
+    border: 1px solid var(--redD);
+    background-color: var(--redD);
+}
+
+.modalBtn:first-child:hover {
+    border-color: var(--redE);
+    background-color: var(--redE);
+}
+
+.modalBtn:nth-child(2) {
+    border: 1px solid var(--orangeFfa);
+    background-color: var(--orangeFfa);
+}
+
+.modalBtn:nth-child(2):hover {
+    border-color: var(--orangeFfd);
+    background-color: var(--orangeFfd);
+}
+
+.modalBtn:last-child {
+    border: 1px solid var(--greenA8);
+    background-color: var(--greenA8);
+}
+
+.modalBtn:last-child:hover {
+    border-color: var(--green8);
+    background-color: var(--green8);
+}
+
+@media all and (min-width: 768px) {
+    .modalContainer {
+        width: 600px;
+        padding: 25px 0;
+    }
+
+    .modalTitle {
+        margin-bottom: 35px;
+        font-size: 24px;
+    }
+
+    .modalLabel {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .modalInput {
+        max-width: 60px;
+        font-size: 16px;
+    }
+
+    .modalInputCheckbox {
+        width: 20px;
+        height: 20px;
+    }
+
+    .modalBtn {
+        padding: 20px 40px;
+        font-size: 16px;
+    }
+  }
+  
+ 

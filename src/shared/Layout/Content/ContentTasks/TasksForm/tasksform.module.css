@@ -1,0 +1,57 @@
+.tasksform {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.tasksInput {
+    width: 80%;
+    padding: 15px 12px;
+    background-color: var(--greyF4);
+    color: var(--grey9);
+    border: none;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.tasksInput:hover {
+    outline: 1px solid var(--greyC4);
+}
+
+.tasksInput:focus {
+    outline: 1px solid var(--greyC4);
+}
+
+.tasksButton {
+    max-width: 173px;
+    padding: 12px 20px;
+    background-color: var(--greenA8);
+    color: var(--white);
+    transition: background-color 0.2s ease-in-out;
+}
+
+.tasksButton:hover {
+    background-color: var(--green8);
+}
+
+.tasksButton:disabled {
+    background-color: rgba(168, 182, 79, 0.5);
+}
+
+
+@media all and (min-width: 576px) {
+    .tasksInput {
+        width: 65%;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .tasksInput {
+        padding: 19px 15px;
+        font-size: 16px;
+    }
+
+    .tasksButton {
+        padding: 15px 50px;
+    }
+}

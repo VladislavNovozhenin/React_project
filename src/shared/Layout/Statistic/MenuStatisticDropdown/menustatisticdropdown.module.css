@@ -1,0 +1,38 @@
+.dropdown {
+    min-width: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding: 19px 15px;
+    background-color: var(--greyF4);
+}
+
+.dropdownTitle {
+    font-size: 16px;
+    
+}
+
+.dropdownList {
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdownItem {
+ border-top: 1px solid var(--greyC4);
+ 
+}
+
+.MenuBtn {
+    display: flex;
+    width: 100%;
+    padding: 19px 15px;
+    background-color: var(--greyF4);
+    font-size: 16px;
+}
+
+@media all and (min-width: 768px) {
+    .dropdown {
+        width: 370px;
+    }
+ 
+      }

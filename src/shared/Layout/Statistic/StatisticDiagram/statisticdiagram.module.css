@@ -1,0 +1,128 @@
+.statisticDiagram {
+    grid-column: 1/13;
+    grid-row: 2;
+    background-color: var(--greyF4);
+}
+
+.containerTop {
+    padding: 84px 0;
+    margin-right: 75px;
+}
+
+.line {
+    position: relative;
+    height: 1px;
+    background-color: var(--greyC4);
+}
+
+.line:not(:last-child) {
+    margin-bottom: 83px;
+}
+
+.lineValue {
+    position: absolute;
+    left: 102%;
+    white-space: nowrap;
+    transform: translateY(-50%);
+    font-size: 12px;
+}
+
+.containerBottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 11px 77px 11px 25px;
+    background-color: var(--greyEc);
+}
+
+.week {
+    position: relative;
+    display: flex;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.name,
+.nameActive {
+    font-size: 18px;
+    line-height: normal;
+    color: var(--grey9);
+}
+
+.nameActive {
+    color: var(--redD);
+}
+
+.value,
+.valueZero,
+.valueActive {
+    position: absolute;
+    bottom: 100%;
+    height: 5px;
+    width: 100%;
+    margin-bottom: 11px;
+    background-color: var(--greyC4);
+}
+
+.value {
+    background-color: var(--redE);
+}
+
+.valueActive {
+    background-color: var(--redD);
+}
+
+@media all and (min-width: 576px) {
+    .week {
+        width: 50px;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .statisticDiagram {
+        grid-column: 4/13;
+        grid-row: 1/3;
+    }
+
+    .containerTop {
+        margin-right: 90px;
+    }
+
+    .containerBottom {
+        padding: 11px 115px 11px 36px;
+    }
+
+    .name,
+    .nameActive {
+        font-size: 24px;
+    }
+}
+
+@media all and (min-width: 1024px) {
+
+    .containerTop {
+        margin-right: 109px;
+    }
+
+    .containerBottom {
+        padding: 11px 125px 11px 46px;
+    }
+
+    .week {
+        width: 65px;
+    }
+}
+
+@media all and (min-width: 1200px) {
+
+    .containerBottom {
+        padding: 11px 165px 11px 56px;
+    }
+
+    .week {
+        width: 77px;
+    }
+}
+
+

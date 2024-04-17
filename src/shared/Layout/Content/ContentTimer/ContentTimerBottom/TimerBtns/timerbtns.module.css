@@ -1,0 +1,52 @@
+.timerBtns {
+    display: flex;
+}
+
+.timerStart,
+.timerStop {
+    padding: 10px 30px;
+    border: 1px solid var(--greyC4);
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+
+}
+
+.timerStart {
+    margin-right: 25px;
+    color: var(--white);
+    background-color: var(--greenA8);
+    border: none;
+}
+
+.timerStart:hover:enabled {
+    background-color: var(--green8);
+}
+
+.timerStart:disabled {
+    background-color: rgba(168, 182, 79, 0.5);
+}
+
+.timerStop {
+    color: var(--redD);
+    border-color: var(--redD);
+}
+
+.timerStop:hover:enabled {
+    color: var(--white);
+    background-color: var(--redD);
+}
+
+.timerStop:disabled {
+    color: var(--greyC4);
+    border-color: var(--greyC4);
+}
+
+@media all and (min-width: 1024px) {
+
+    .timerStart,
+    .timerStop {
+        padding: 15px 50px;
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,112 @@
+.statisticPause,
+.statisticPausePurple {
+    grid-column: 5/9;
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    align-items: center;
+    background-color: var(--greyF4);
+}
+
+.statisticPausePurple {
+    background-color: var(--purpleD);
+}
+
+.statisticPause svg,
+.statisticPausePurple svg {
+    width: 70px;
+    height: 70px;
+    margin-top: auto;
+}
+
+.statisticPause svg {
+    stroke: var(--greyC4);
+}
+
+.statisticPausePurple svg {
+    stroke: var(--purple9);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.value {
+    font-size: 20px;
+    line-height: normal;
+}
+
+@media all and (min-width: 768px) {
+
+    .statisticPause svg,
+    .statisticPausePurple svg {
+        width: 80px;
+        height: 80px;
+    }
+
+    .name {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .value {
+        font-size: 40px;
+    }
+}
+
+@media all and (min-width: 1200px) {
+
+    .statisticPause,
+    .statisticPausePurple {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 25px;
+    }
+
+    .statisticPause svg,
+    .statisticPausePurple svg {
+        width: 115px;
+        height: 115px;
+        margin-top: 0;
+    }
+
+    .name {
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+    .value {
+        font-size: 50px;
+    }
+
+    .content {
+        margin-bottom: 0;
+        height: 100%;
+        align-items: start;
+    }
+
+}
+
+@media all and (min-width: 1440px) {
+    .value {
+        font-size: 64px;
+    }
+
+    .statisticPause svg,
+    .statisticPausePurple svg {
+        width: 129px;
+        height: 129px;
+    }
+}

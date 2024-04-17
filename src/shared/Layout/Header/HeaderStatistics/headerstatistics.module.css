@@ -1,0 +1,29 @@
+.headerStatistics {
+    display: flex;
+    align-items: center;
+}
+
+.headerStatisticsDescr {
+    color: var(--redD);
+    transition: color .2s ease-in-out;
+}
+
+.headerStatisticsDescr:hover {
+    color: rgb(169, 30, 30);
+}
+
+.btnTheme {
+    display: flex;
+    margin-right: 5px;
+    align-items: center;
+}
+
+.btnTheme svg {
+    width: 24px;
+    height: 24px;
+    transition: transform .3s ease-in-out;
+}
+
+.btnTheme:hover svg {
+    transform: scale(1.2);
+}

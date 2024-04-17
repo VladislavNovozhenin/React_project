@@ -1,0 +1,19 @@
+.taskButton {
+    margin-left: auto;
+}
+
+.taskButton circle {
+    fill: var(--greyC4);
+    transition: fill .2s ease-in-out;
+}
+
+.taskButton:hover circle {
+    fill: var(--purple9);
+}
+
+.dropdown {
+    position: absolute;
+    right: -70px;
+    top: 15px;
+    z-index: 10;
+  }

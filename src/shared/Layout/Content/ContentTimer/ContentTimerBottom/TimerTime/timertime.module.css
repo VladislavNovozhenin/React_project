@@ -1,0 +1,61 @@
+.timerSet {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.timerSet svg {
+    width: 30px;
+    height: 30px;
+    stroke: var(--black);
+    transition: stroke .2s ease-in-out;
+}
+
+.timerSet:hover svg {
+    stroke: var(--green8);
+}
+
+.timerTime,
+.timerTimeGreen,
+.timerTimeRed {
+    font-size: 100px;
+    font-weight: 200;
+    line-height: normal;
+}
+
+.timerTimeRed {
+    color: var(--redD);
+}
+
+.timerTimeGreen {
+    color: var(--greenA8);
+}
+
+@media all and (min-width: 576px) {
+
+    .timerTime,
+    .timerTimeGreen,
+    .timerTimeRed {
+        font-size: 130px;
+    }
+
+    .timerSet {
+        top: 20px;
+        left: 20px;
+    }
+
+    .timerSet svg {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media all and (min-width: 1024px) {
+
+    .timerTime,
+    .timerTimeGreen,
+    .timerTimeRed {
+        font-size: 130px;
+    }
+}
+
