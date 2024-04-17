@@ -10,7 +10,7 @@ export function HeaderLogo() {
     <div className={styles.headerLogo}>
       <HeaderSvg />
       <Break size={8} />
-      <Link className={styles.headerLogoDescr} to='/'>pomodoro_box</Link>
+      <Link className={styles.headerLogoDescr} to='React_project/'>pomodoro_box</Link>
       
 
     </div>

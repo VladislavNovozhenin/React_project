@@ -31,7 +31,7 @@ export function HeaderStatistics() {
       }
       <HeaderDiagram />
       <Break size={8} />
-      <Link className={styles.headerStatisticsDescr} to='/stat'>Статистика</Link>
+      <Link className={styles.headerStatisticsDescr} to='React_project/stat'>Статистика</Link>
     </div>
   );
 }
