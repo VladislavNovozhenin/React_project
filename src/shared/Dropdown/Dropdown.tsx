@@ -14,7 +14,8 @@ interface IDropdownProps {
   top?: number
 }
 
-const NOOP = () => { };
+const NOOP = () => undefined;
+
 
 export function Dropdown({ button, children, isOpen, onClose = NOOP, onOpen = NOOP }: IDropdownProps) {
   const menuRef = useRef<HTMLDivElement>(null);
