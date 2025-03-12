@@ -10,7 +10,6 @@ export function Header() {
       <HeaderLogo />
       <HeaderStatistics/>
       </div>
-      
     </header>
   );
 }
