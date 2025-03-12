@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/React_project/static/css/main.dbb8a04a.css",
+    "main.js": "/React_project/static/js/main.2f403635.js",
+    "static/media/sf-ui-display-b.svg": "/React_project/static/media/sf-ui-display-b.4d07c57b6c171837f5f7.svg",
+    "static/media/sf-ui-display-b.eot": "/React_project/static/media/sf-ui-display-b.9c23a953942cf10374b9.eot",
+    "static/media/sf-ui-display-b.ttf": "/React_project/static/media/sf-ui-display-b.e3c6b7f6c518619997bf.ttf",
+    "static/media/sf-ui-display-t.woff": "/React_project/static/media/sf-ui-display-t.3d391e0130d73999601c.woff",
+    "static/media/sf-ui-display-m.woff": "/React_project/static/media/sf-ui-display-m.cbce6c3143109e7ef6c4.woff",
+    "static/media/sf-ui-display-b.woff": "/React_project/static/media/sf-ui-display-b.fbdf11a6fd6e15bdccc2.woff",
+    "static/media/sf-ui-display-r.woff": "/React_project/static/media/sf-ui-display-r.fe9f15aba2f801712baa.woff",
+    "static/media/alarm-clock-beep-1_zjgin-vd.mp3": "/React_project/static/media/alarm-clock-beep-1_zjgin-vd.c71a01feed5a06dd91e0.mp3",
+    "index.html": "/React_project/index.html",
+    "main.dbb8a04a.css.map": "/React_project/static/css/main.dbb8a04a.css.map",
+    "main.2f403635.js.map": "/React_project/static/js/main.2f403635.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dbb8a04a.css",
+    "static/js/main.2f403635.js"
+  ]
+}
