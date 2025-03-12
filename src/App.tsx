@@ -8,7 +8,6 @@ import { Statistic } from './shared/Layout/Statistic';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-import React from 'react';
 import { statAddNewDay } from './shared/store/stat/actions';
 
 const store = createStore(rootReducer, composeWithDevTools())
